@@ -1,0 +1,39 @@
+Short Description
+Be responsible for the functional design and delivery of technology-based business solutions. Communicate project standards and guidelines around the application design.
+
+Responsibilities
+Take part in the development efforts to build applications using ReactJS
+Responsible for full life cycle application development and deployment ensuring that the architectural integrity is maintained.
+Determine the feasibility of design within time and cost constraints against requirements.
+Identify the architectural solutions as well as internal and external APIs for a component.
+Identify the common components that can be used in a wide range of applications we develop.
+Review the technical code and make sure it is written properly and follows the standard of the company.
+To ensure the written block of code is maintainable, scalable, and flexible for future improvement.
+Develop common services, templates, and utilities that can improve the productivity of the team.
+Identify and evaluate different solutions and/or technology to choose the best suited for a particular problem.
+Write computer programs of higher complexity or with specific performance, connectivity, integration, or business logic implementation.
+Mentor the other technical staff, assist them where needed and lead the effort in resolving technical challenges.
+Educational Requirements
+A bachelor`s degree in Computer Science/ Engineering/ Applied Science/ Mathematics or equivalent degree from any reputed local or foreign university.
+Experience Requirements
+At least 4-5 years
+Job Requirements
+Having 2 years of experience working on a project for a foreign client.
+Clear understanding of OOP, Agile Methodology, and DevOps are required.
+Proper knowledge of database management, and data warehouse is required. Experience in working with any database like MSSQL, MySQL, MongoDB, PostgreSQL, etc.
+Experience working with Node.JS, Angular, and other web technologies. is preferable.
+Be extremely comfortable working with version control and branching (e.g. Git)
+Working experience in any Responsive design framework like Bootstrap, or Material Design is preferable.
+Experience deploying applications on AWS/ Azure/ Google cloud platform and exposure to docker containers.
+Experience working on Agile/Scrum teams
+Fluency in writing and speaking in English is a must.
+Compensation & other benefits
+Provident Fund
+Performance bonus
+Weekly 2 holidays
+Fully Subsidize Lunch Facilities
+Yearly Salary Review
+2 Yearly Festival Bonus
+Entertainment and outdoor programs
+Flexible working hours and friendly environment
+Opportunity to learn from Global Team.
