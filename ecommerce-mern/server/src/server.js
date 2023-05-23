@@ -2,26 +2,30 @@ const express = require('express');
 const morgan = require('morgan');
 const app = express();
 
-app.use(morgan("dev"))
+app.use(morgan("dev"));
+app.use(express.json());
+app.use(express.urlencoded({extended: true}))
+
+const isLoggedIn = (req, res, next) => {
+    // console.log('isLoggedIn middleware');
+    const login = true;
+    if(login){
+        req.body.id = 101
+        next();
+    }else{
+        return res.status(401).json({message: 'Please login first'})
+    }
+}
 
 app.get("/test", (req, res) => {
     res.status(200).send({
         message: 'Welcome to Jungle'
     })
 })
-app.post("/test", (req, res) => {
+app.get("/api/user", isLoggedIn, (req, res) => {
+    console.log('Req body id: ', req.body.id);
     res.status(200).send({
-        message: 'post: Welcome to Post method'
-    })
-})
-app.put("/test", (req, res) => {
-    res.status(200).send({
-        message: 'put: Welcome to put method'
-    })
-})
-app.delete("/test", (req, res) => {
-    res.status(200).send({
-        message: 'delete: Welcome to delete method'
+        message: 'User profile is retured'
     })
 })
 
