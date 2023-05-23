@@ -9,7 +9,7 @@
 
 # dependencies
 /node_modules
-/node_modules
+ecommrce-mern/node_modules
 /restapi/node_modules
 /raffle-draw-project/node_modules
 /notes-app/node_modules
@@ -57,6 +57,7 @@ primeng-theme/mirage/src/assets/theme/*/theme-*.css
 primeng-theme/mirage/src/assets/sass/theme/designer
 
 /package-lock.json
+ecommrce-mern/package-lock.json
 player-api/package-lock.json
 raffle-draw-project/package-lock.json
 notes-app/package-lock.json
