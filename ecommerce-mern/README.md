@@ -11,7 +11,16 @@
 - Project create `npm i -y`
 - express install:  `npm install express`
 - Update `package.json` file `"main": "server.js",`
-- Project run this command : `node src/server.js`
+- Project run this command : `node src/server.js` or using nodemon then `npm run dev`
+- nodemon install `npm i -D nodemon` and `npm i -D morgan`
+
+```node
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/server.js",
+    "dev": "nodemon ./src/server.js"
+  }
+```
 
 
 ### Reference
