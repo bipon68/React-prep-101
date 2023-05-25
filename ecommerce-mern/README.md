@@ -8,7 +8,8 @@
 - [x] API testing with Postman
 - [x] Middleware & Types of Middleware
 - [x] Express Error Handling Middleware -> body-parser
-- [] How to handle HTTP errors -> http-errors
+- [x] How to handle HTTP errors -> http-errors
+- [] How to secure API -> xss-clean, express-rate-limit
 
 ### Project create using only command
 - Project create `npm i -y`
@@ -18,6 +19,7 @@
 - nodemon install `npm i -D nodemon` and `npm i -D morgan`
 - `npm i body-parser`
 - `npm i http-errors`
+- `npm i xss-clean` `npm i express-rate-limit`
 
 ```node
   "scripts": {
@@ -32,5 +34,5 @@
 - [Validator](https://www.npmjs.com/package/validator)
 - [UUID](https://www.npmjs.com/package/uuid)
 - [fetch api](https://javascript.info/fetch)
-- Axios : https://www.npmjs.com/package/axios
+- [Axios](https://www.npmjs.com/package/axios)
 - [Express Middlware](https://expressjs.com/en/guide/using-middleware.html) 
