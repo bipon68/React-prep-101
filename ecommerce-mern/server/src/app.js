@@ -3,7 +3,8 @@ const morgan = require('morgan');
 const bodyParser = require('body-parser')
 const createError = require('http-errors')
 const xssClean = require('xss-clean')
-const rateLimit = require('express-rate-limit')
+const rateLimit = require('express-rate-limit');
+const { userRouter } = require('./routers/userRouter');
 const app = express();
 
 const rateLimiter = rateLimit({
@@ -18,6 +19,8 @@ app.use(xssClean());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}))
 
+app.use("/api/users", userRouter)
+
 // const isLoggedIn = (req, res, next) => {
 //     // console.log('isLoggedIn middleware');
 //     const login = true;
@@ -29,17 +32,14 @@ app.use(bodyParser.urlencoded({extended: true}))
 //     }
 // }
 
+
+
 app.get("/test", (req, res) => {
     res.status(200).send({
         message: 'Welcome to Jungle'
     })
 })
-app.get("/api/user", (req, res) => {
-    console.log('Req body id: ', req.body.id);
-    res.status(200).send({
-        message: 'User profile is retured'
-    })
-})
+
 
 app.get("/", (req, res) => {
     res.status(200).send({

@@ -11,7 +11,7 @@
 - [x] How to handle HTTP errors -> http-errors
 - [x] How to secure API -> xss-clean, express-rate-limit
 - [x] Environment variable & .gitignore
-- [ ] MVC Architecture
+- [x] MVC Architecture Setup
 
 ### Project create using only command
 - Project create `npm i -y`
