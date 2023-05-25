@@ -9,7 +9,9 @@
 - [x] Middleware & Types of Middleware
 - [x] Express Error Handling Middleware -> body-parser
 - [x] How to handle HTTP errors -> http-errors
-- [] How to secure API -> xss-clean, express-rate-limit
+- [x] How to secure API -> xss-clean, express-rate-limit
+- [x] Environment variable & .gitignore
+- [ ] MVC Architecture
 
 ### Project create using only command
 - Project create `npm i -y`
@@ -20,6 +22,7 @@
 - `npm i body-parser`
 - `npm i http-errors`
 - `npm i xss-clean` `npm i express-rate-limit`
+- `npm i dotenv`
 
 ```node
   "scripts": {

@@ -14,6 +14,10 @@
 /raffle-draw-project/node_modules
 /notes-app/node_modules
 
+# dotenv environment variable files
+.env
+.env.development.local
+
 # profiling files
 chrome-profiler-events*.json
 speed-measure-plugin*.json
