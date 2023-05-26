@@ -31,7 +31,9 @@
     "dev": "nodemon ./src/server.js"
   }
 ```
-
+### DB Config
+- DB Name - `commerceMernDB` collection - `users` `orders` `products` `category`
+- `npm i mongoose`
 
 ### Reference
 - [Validator](https://www.npmjs.com/package/validator)
