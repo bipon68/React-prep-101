@@ -15,6 +15,7 @@
 - [x] connect to MongoDB database
 - [x] Schema & Model for User
 - [x] Create seed route for testing
+- [x] GET /api/users -> isAdmin -> getAllUsers -> searchByName + pagination functionality 
 
 ### Project create using only command
 - Project create `npm i -y`
