@@ -14,6 +14,7 @@
 - [x] MVC Architecture Setup
 - [x] connect to MongoDB database
 - [x] Schema & Model for User
+- [x] Create seed route for testing
 
 ### Project create using only command
 - Project create `npm i -y`

@@ -43,25 +43,15 @@ const userSchema = new Schema({
     },
     isAdmin: {
         type: Boolean,
-        default: fasle
+        default: false
     },
     isBanned: {
         type: Boolean,
-        default: fasle
+        default: false
     }
 }, {timestamps: true})
 
 const User = model('Users', userSchema)
 
 
-
-// const users = [
-//     {id: 1, name: 'Bipon Biswas'},
-//     {id: 2, name: 'Sajib Biswas'},
-//     {id: 3, name: 'Mead Ahmed Fahim'},
-// ]
-
-// module.exports = {users}
-
-
-module.exports = {User}
+module.exports = User
