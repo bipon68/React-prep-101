@@ -12,6 +12,8 @@
 - [x] How to secure API -> xss-clean, express-rate-limit
 - [x] Environment variable & .gitignore
 - [x] MVC Architecture Setup
+- [x] connect to MongoDB database
+- [x] Schema & Model for User
 
 ### Project create using only command
 - Project create `npm i -y`
@@ -34,6 +36,7 @@
 ### DB Config
 - DB Name - `commerceMernDB` collection - `users` `orders` `products` `category`
 - `npm i mongoose`
+- `npm i bcrypt`
 
 ### Reference
 - [Validator](https://www.npmjs.com/package/validator)
