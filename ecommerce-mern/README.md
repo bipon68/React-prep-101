@@ -18,6 +18,7 @@
 - [x] GET /api/users -> isAdmin -> getAllUsers -> searchByName + pagination functionality 
 - [x] responseHandler controller for error or success
 - [x] GET /api/users/:id -> get a single user by id
+- [x] How to create service in the backend
 
 ### Project create using only command
 - Project create `npm i -y`
