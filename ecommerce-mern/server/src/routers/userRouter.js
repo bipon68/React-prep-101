@@ -1,5 +1,5 @@
 const express = require('express');
-const { getUsers, getUser, deleteUser } = require('../controller/userController');
+const { getUsers, getUserById, deleteUserById } = require('../controller/userController');
 const userRouter = express.Router();
 
 
@@ -11,8 +11,8 @@ const users = [
 
 // GET: /api/users
 userRouter.get("/", getUsers);
-userRouter.get('/:id', getUser)
-userRouter.delete('/:id', deleteUser)
+userRouter.get('/:id', getUserById)
+userRouter.delete('/:id', deleteUserById)
 
 
 // userRouter.get("/profile", (req, res) => {
