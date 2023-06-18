@@ -1,5 +1,5 @@
 const express = require('express');
-const { getUsers, getUserById, deleteUserById } = require('../controller/userController');
+const { getUsers, getUserById, deleteUserById, processRegister } = require('../controller/userController');
 const userRouter = express.Router();
 
 
@@ -10,6 +10,7 @@ const users = [
 ]
 
 // GET: /api/users
+userRouter.post("/process-register", processRegister);
 userRouter.get("/", getUsers);
 userRouter.get('/:id', getUserById)
 userRouter.delete('/:id', deleteUserById)

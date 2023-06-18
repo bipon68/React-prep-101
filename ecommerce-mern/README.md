@@ -21,6 +21,9 @@
 - [x] How to create service in the backend
 - [x] Delete /api/users/:id -> delete a single user by id 
 - [x] Refactoring & reusability, dynamic
+- [x] deleteImage helper
+- [x] POST /api/users/process-register -> process the registration
+- [x] POST /api/users/verify -> verify + register into database
 
 ### Project create using only command
 - Project create `npm i -y`
