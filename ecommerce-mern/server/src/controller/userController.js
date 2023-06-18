@@ -98,7 +98,7 @@ const deleteUserById = async (req, res, next) => {
        const id = req.params.id;
        const options = {password: 0};
 
-        const user = await findWithId(Model, id, options);
+        const user = await findWithId(User, id, options);
 
 
         const userImagePath = user.image;

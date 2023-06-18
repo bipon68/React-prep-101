@@ -6,7 +6,7 @@ const findWithId = async (Model, id, options = {}) => {
 
     
     try {
-        const item = await Model.findById(Model, id, options)
+        const item = await Model.findById(id, options)
 
         if(!item){
             throw createHttpError(404, `${Model.modelName} does not exist with this id`)

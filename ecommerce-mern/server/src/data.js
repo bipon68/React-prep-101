@@ -21,6 +21,13 @@ const data = {
             phone: '123456',
             address: 'Jessore, Bangladesh'
         },
+        {
+            name: 'Fahim Mead',
+            email: 'fahim@gmail.com',
+            password: '123456',
+            phone: '123456',
+            address: 'Gazipur, Bangladesh'
+        },
     ]
 }
 
