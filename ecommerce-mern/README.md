@@ -19,6 +19,7 @@
 - [x] responseHandler controller for error or success
 - [x] GET /api/users/:id -> get a single user by id
 - [x] How to create service in the backend
+- [x] Delete /api/users/:id -> delete a single user by id 
 
 ### Project create using only command
 - Project create `npm i -y`
