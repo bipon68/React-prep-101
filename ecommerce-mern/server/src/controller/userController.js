@@ -2,7 +2,9 @@ const createError = require('http-errors');
 const fs = require('fs').promises;
 const  mongoose = require('mongoose');
 const { deleteImage } = require('../helper/deleteImage');
+const {createJSONWebToken}  = require('../helper/jsonwebtoken');
 const User = require('../models/userModel');
+const {jwtActivationKey} = require('../secret');
 const { findWithId } = require('../services/findItem');
 const { successResponse } = require('./responseController');
 
@@ -140,15 +142,21 @@ const processRegister = async (req, res, next) => {
         if(userExists){
             throw createError(409, 'User already exists. Please sign in.')
         }
+        // create jwt
+        const token = createJSONWebToken(
+            {name, email, password, phone, address}, 
+            jwtActivationKey, 
+            '10m')
+        console.log(token);
 
-        const newUser = {
-            name, email, password, phone, address
-        }
+        // const newUser = {
+        //     name, email, password, phone, address
+        // }
 
         return successResponse(res, {
             statusCode: 200,
             message: 'User was created successfully',
-            payload: {newUser}
+            payload: {token}
         })
    
 

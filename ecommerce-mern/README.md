@@ -49,6 +49,7 @@
 - `npm i bcrypt`
 
 ### Reference
+- [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)
 - [Validator](https://www.npmjs.com/package/validator)
 - [UUID](https://www.npmjs.com/package/uuid)
 - [fetch api](https://javascript.info/fetch)
